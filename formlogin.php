@@ -14,8 +14,8 @@
     }
     ?>
     <form action="login.php" method="POST">
-        <p><input type="text" name="login"/></p>
-        <p><input type="password" name="password"/></p>
+        <p>Username: <input type="text" name="login" placeholder="user"/></p>
+        <p>Password: <input type="password" name="password" placeholder="password"/></p>
         <input type="submit" value="Login"/>
     </form>
 
