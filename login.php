@@ -19,7 +19,7 @@
             $password = $_POST["password"];
             //test login failed
             if($login != "admin" || $password != "1234"){     //only acceptable login and password for this website
-                $erro = "Check if your user name or password is correct";
+                $error = "Check if your user name or password is correct";
             //login success
             } else{
                 $_SESSION["username"] = "Administrator";
