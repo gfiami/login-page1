@@ -18,6 +18,9 @@
     <?php
     }
     ?>
-    
+    <script>
+        console.log("username: admin");
+        console.log("password: 1234");
+    </script>
 </body>
 </html>
